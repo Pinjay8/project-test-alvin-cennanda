@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Suitmedias</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <!-- <img src="" alt="" /> -->
+        <a href="#" class="navbar-brand">Company</a>
+        <div class="toggle-menu" id="toggle-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="navbar-nav" id="navbar-nav">
+          <li>
+            <div class="dropdown">
+              <a class="dropbtn nav-link">About</a>
+              <div class="dropdown-content">
+                <a href="#">History</a>
+                <a href="#">Vission Mission</a>
+              </div>
+            </div>
+          </li>
+          <li><a href="#" class="nav-link">Our Work</a></li>
+          <li><a href="#" class="nav-link">Our Team</a></li>
+          <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- <div class="carousel">
+      <div class="carousel-slide">
+        <img src="img/bg.jpg" alt="Image 1" />
+        <img src="img/about-bg.jpg" alt="Image 2" />
+      </div>
+      <button class="carousel-arrow prev" onclick="changeSlide(-1)">&#8249;</button>
+      <button class="carousel-arrow next" onclick="changeSlide(1)">&#8250;</button>
+    </div> -->
+
+    <!-- <section class="main swiper slider-wrapper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="img/bg.jpg" alt="" class="image" />
+          <div class="image-data">
+            <h2 class="main-section">
+              This is a place where technology & <br />
+              creativity fused into digital chemistry
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="slider-wrapper">
+      <h2 class="main-section">
+        This is a place where technology & <br />
+        creativity fused into digital chemistry
+      </h2>
+      <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+
+      <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
+
+      <ul class="slides-container" id="slides-container">
+        <li class="slide"></li>
+        <li class="slide"></li>
+      </ul>
+      <div class="pagi-dot" style="text-align: center" id="pagi-dot">
+        <span class="dot prev" id="dot"></span>
+        <span class="dot next" id="dot"></span>
+      </div>
+    </section>
+
+    <section class="values">
+      <div class="container">
+        <h1 class="contact-title">Our Values</h1>
+        <div class="card">
+          <div class="card-content-1">
+            <img src="img/lightbulb-o.png" alt="Gambar Lightbulb" />
+            <h3 class="card-title">Innovative</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem dolorem deserunt, und, eaque ipsa?</p>
+          </div>
+          <div class="card-content-2">
+            <img src="img/bank.png" alt="Gambar Bank" />
+            <h3 class="card-title">Loyalty</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit similique eum itaque facere temporibus dolores.</p>
+          </div>
+          <div class="card-content-3">
+            <img src="img/balance-scale.png" alt="Gambar Balance" />
+            <h3 class="card-title">Respect</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, sit? Tenetur et neque quod incidunt!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <h1 class="contact-title">Contact Us</h1>
+        <form action="" class="form-wrapper">
+          <div class="name-form form-group">
+            <label for="fullanem">Name </label>
+            <input type="text" class="form-control" name="name" placeholder="Name" id="fullname" />
+          </div>
+          <div class="email-form form-group">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" name="email" placeholder="Email" id="email" />
+          </div>
+          <div class="message-form form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" placeholder="Message" rows="4" cols="50" id="message"></textarea>
+          </div>
+          <button type="submit" class="form-control btn-element">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <h6>Copyright &copy; 2016 PT Company</h6>
+      <img src="/img/facebook-official.png" alt="" style="width: 25px" />
+      <img src="/img/twitter.png" alt="" style="width: 25px" />
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
